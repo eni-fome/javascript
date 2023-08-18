@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+#click {
+    height: 50px;
+    width: 120px;
+    border-radius: 60px;
+    outline: none;
+    border: none;
+    background-color: powderblue;
+    cursor: pointer;
+}
+
+
+#click:hover {
+    transform: scale(1.07);
+    transition: ease-in-out 300ms;
+
+}
